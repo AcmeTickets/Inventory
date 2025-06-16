@@ -23,7 +23,7 @@ jobs:
     with:
       project_path: src/Api/Api.csproj
       dockerfile_path: src/Api/Dockerfile
-      image_name: ghcr.io/acmetickets/platformcomp-api
+      image_name: ghcr.io/acmetickets/inventory-api
       target_port: 5003
 
   deploy-api:
