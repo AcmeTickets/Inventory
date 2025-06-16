@@ -1,4 +1,4 @@
-namespace {{DomainName}}.Domain.Events;
+namespace Inventory.Domain.Events;
 
 public abstract class DomainEvent
 {

@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using AcmeTickets.{{DomainName}}.InternalContracts.Events;
-using {{DomainName}}.Application.Commands;
-using {{DomainName}}.Application.DTOs;
-using {{DomainName}}.Application.Services;
+using AcmeTickets.Inventory.InternalContracts.Events;
+using Inventory.Application.Commands;
+using Inventory.Application.DTOs;
+using Inventory.Application.Services;
 
-namespace AcmeTickets.Domains.{{DomainName}}.Api.Controllers
+namespace AcmeTickets.Domains.Inventory.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

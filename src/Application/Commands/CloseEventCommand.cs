@@ -1,3 +1,3 @@
-namespace {{DomainName}}.Application.Commands;
+namespace Inventory.Application.Commands;
 
 public record CloseEventCommand(Guid EventId);

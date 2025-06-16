@@ -1,7 +1,7 @@
-using {{DomainName}}.Domain.Events;
+using Inventory.Domain.Events;
 using Newtonsoft.Json;
 
-namespace {{DomainName}}.Domain.Entities;
+namespace Inventory.Domain.Entities;
 
 public class Event
 {

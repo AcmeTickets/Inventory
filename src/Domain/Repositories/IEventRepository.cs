@@ -1,6 +1,6 @@
-using {{DomainName}}.Domain.Entities;
+using Inventory.Domain.Entities;
 
-namespace {{DomainName}}.Domain.Repositories;
+namespace Inventory.Domain.Repositories;
 
 public interface IEventRepository
 {

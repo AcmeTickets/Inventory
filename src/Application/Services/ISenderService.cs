@@ -1,4 +1,4 @@
-namespace {{DomainName}}.Application.Services;
+namespace Inventory.Application.Services;
 
 public interface ISenderService
 {

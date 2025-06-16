@@ -1,6 +1,6 @@
-using {{DomainName}}.Domain.Services;
+using Inventory.Domain.Services;
 
-namespace {{DomainName}}.Test.Mocks.Fakes;
+namespace Inventory.Test.Mocks.Fakes;
 
 public class FakeExternalService : IExternalService
 {

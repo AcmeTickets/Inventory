@@ -1,6 +1,6 @@
-    using {{DomainName}}.Application.Services;
+    using Inventory.Application.Services;
 
-namespace {{DomainName}}.Infrastructure.Services
+namespace Inventory.Infrastructure.Services
 {
     public static class NServiceBusEventPublisherAccessor
     {

@@ -1,11 +1,11 @@
-using {{DomainName}}.Application.Commands;
-using {{DomainName}}.Application.DTOs;
-using {{DomainName}}.Domain.Repositories;
-using {{DomainName}}.Domain.Services;
-using {{DomainName}}.Domain.Entities;
-using {{DomainName}}.Domain.Events;
+using Inventory.Application.Commands;
+using Inventory.Application.DTOs;
+using Inventory.Domain.Repositories;
+using Inventory.Domain.Services;
+using Inventory.Domain.Entities;
+using Inventory.Domain.Events;
 
-namespace {{DomainName}}.Application.Services;
+namespace Inventory.Application.Services;
 
 public class EventService : IEventService
 {

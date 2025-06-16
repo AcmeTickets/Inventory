@@ -1,4 +1,4 @@
-namespace {{DomainName}}.Domain.Services;
+namespace Inventory.Domain.Services;
 
 public interface IExternalService
 {

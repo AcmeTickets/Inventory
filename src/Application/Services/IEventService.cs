@@ -1,7 +1,7 @@
-using {{DomainName}}.Application.Commands;
-using {{DomainName}}.Application.DTOs;
+using Inventory.Application.Commands;
+using Inventory.Application.DTOs;
 
-namespace {{DomainName}}.Application.Services;
+namespace Inventory.Application.Services;
 
 public interface IEventService
 {

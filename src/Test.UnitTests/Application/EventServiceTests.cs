@@ -1,10 +1,10 @@
-using {{DomainName}}.Application.Commands;
-using {{DomainName}}.Application.Services;
-using {{DomainName}}.Domain.Events;
-using {{DomainName}}.Test.Mocks.Fakes;
+using Inventory.Application.Commands;
+using Inventory.Application.Services;
+using Inventory.Domain.Events;
+using Inventory.Test.Mocks.Fakes;
 using Xunit;
 
-namespace {{DomainName}}.Test.UnitTests.Application;
+namespace Inventory.Test.UnitTests.Application;
 
 public class EventServiceTests
 {

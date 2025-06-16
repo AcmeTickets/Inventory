@@ -1,12 +1,12 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NServiceBus;
-using {{DomainName}}.Application.Services;
-using {{DomainName}}.Infrastructure;
-using {{DomainName}}.Infrastructure.Services;
-using {{DomainName}}.Domain.Repositories;
-using {{DomainName}}.Domain.Services;
-using {{DomainName}}.Domain.Events;
+using Inventory.Application.Services;
+using Inventory.Infrastructure;
+using Inventory.Infrastructure.Services;
+using Inventory.Domain.Repositories;
+using Inventory.Domain.Services;
+using Inventory.Domain.Events;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -69,8 +69,8 @@ await app.RunAsync();
 // NServiceBus configuration helper
 EndpointConfiguration ConfigureNServiceBus(WebApplicationBuilder builder)
 {
-    var endpointName = "{{DomainName}}.Api";
-    var messageEndpoint = "{{DomainName}}.Message";
+    var endpointName = "Inventory.Api";
+    var messageEndpoint = "Inventory.Message";
     return builder.Environment.IsDevelopment()
         ? NServiceBusConfigurator.DevelopmentConfiguration(
             builder.Configuration,

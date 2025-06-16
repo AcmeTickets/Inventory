@@ -1,7 +1,7 @@
-using {{DomainName}}.Application.Services;
+using Inventory.Application.Services;
 using NServiceBus;
 
-namespace {{DomainName}}.Infrastructure.Services;
+namespace Inventory.Infrastructure.Services;
 
 public class NServiceBusEventPublisher : ISenderService
 {

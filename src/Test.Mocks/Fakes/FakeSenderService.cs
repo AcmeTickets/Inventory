@@ -1,6 +1,6 @@
-using {{DomainName}}.Application.Services;
+using Inventory.Application.Services;
 
-namespace {{DomainName}}.Test.Mocks.Fakes;
+namespace Inventory.Test.Mocks.Fakes;
 
 public class FakeSenderService : ISenderService
 {

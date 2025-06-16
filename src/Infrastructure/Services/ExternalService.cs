@@ -1,8 +1,8 @@
-using {{DomainName}}.Domain.Services;
+using Inventory.Domain.Services;
 using System.Net.Http;
 using System.Text.Json;
 
-namespace {{DomainName}}.Infrastructure.Services;
+namespace Inventory.Infrastructure.Services;
 
 public class ExternalService : IExternalService
 {

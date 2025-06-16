@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
 using NServiceBus;
 using Microsoft.Extensions.Logging;
-using AcmeTickets.{{DomainName}}.InternalContracts.Events;
+using AcmeTickets.Inventory.InternalContracts.Events;
 
-namespace AcmeTickets.Domains.{{DomainName}}.Message.Handlers
+namespace AcmeTickets.Domains.Inventory.Message.Handlers
 {
     public class TicketRequestedEventHandler : IHandleMessages<TicketRequestedEvent>
     {
